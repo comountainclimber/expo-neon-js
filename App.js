@@ -4,10 +4,6 @@ import { StyleSheet, Text, View } from "react-native";
 import "./window-crypto";
 import Neon from "@cityofzion/neon-js";
 
-// const acct = Neon.create.Account("ALq7AWrhAueN6mJNqk6FHJjnsEoPRytLdW");
-
-console.log({ Neon });
-
 export default function App() {
   return (
     <View style={styles.container}>
